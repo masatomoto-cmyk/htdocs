@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogform</title>
+</head>
+<body>
+    <h2>ブログフォーム</h2>
+    <form action="blog.php" method="post">
+        <p>ブログタイトル:</p>
+        <input type="text" name="title">
+
+        <!-- ▼ ここから新しく追加する部品 ▼ -->
+        <p>カテゴリ:</p>
+        <select name="category">
+            <option value="日常">日常</option>
+            <option value="プログラミング">プログラミング</option>
+            <option value="趣味">趣味</option>
+        </select>
+
+        <p>投稿日時:</p>
+        <input type="date" name="post_at">
+        <!-- ▲ ここまで追加 ▲ -->
+
+        <p>ブログ本文:</p>
+        <textarea name="content" id="content" rows="5" cols="30"></textarea>
+        <br>
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>

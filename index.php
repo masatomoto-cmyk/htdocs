@@ -1,4 +1,4 @@
-<?php
+<!-- <!-- <?php
 // データベース接続
 try {
     $pdo = new PDO('mysql:host=localhost;dbname=bbs_yt;charset=utf8', 'root', 'root');
@@ -38,7 +38,7 @@ try {
     echo "データ取得失敗: " . $e->getMessage();
 }
 
-// 接続を閉じる
+// 接続を閉じる -->
 $pdo = null;
 ?>
 
@@ -86,4 +86,4 @@ $pdo = null;
         </form>
     </div>
 </body>
-</html>
+</html> -->

@@ -1,0 +1,5 @@
+.DS_Store
+# DB接続情報（パスワード入り）は公開しない。env.example.php をコピーして使う
+env.php
+# 別リポジトリ (masatomoto-cmyk/newlogin) で管理
+newlogin/
